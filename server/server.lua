@@ -16,7 +16,7 @@ AddEventHandler('rgn_farmer:pay', function(money, xp)
     --TriggerEvent('redemrp:getPlayerFromId', source, function(user)
     TriggerEvent("vorp:getCharacter",source,function(user)
         local _source = source
-		local count = VorpInv.getItemCount(source, "wheat")
+		local count = VorpInv.getItemCount(source, "corn")
         VORP.addMoney(_source, 0, (money * count))
         VORP.addXp(_source, xp)
 	end)
@@ -31,7 +31,7 @@ end)
 RegisterServerEvent('rgn_farmer:removeitem')
 AddEventHandler('rgn_farmer:removeitem', function(item)
 	local _source = source
-	local count = VorpInv.getItemCount(source, "wheat")
+	local count = VorpInv.getItemCount(source, "corn")
 	VorpInv.subItem(_source, Config.item, count)
 end)
 	
