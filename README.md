@@ -1,4 +1,4 @@
-# rgn_farmer by Kyro - Based on poke_farmer_job
+# rgn_farmer by Kyro - Based on poke_miner_job
  Farming job with many customization options in config.lua that goes in depth by providing a
  corn item to the player and paying them based on a random amount of corn they get from each harvest point.
 
