@@ -8,6 +8,6 @@
 - [VORPInventory] (https://github.com/VORPCORE/VORP-Inventory/releases/tag/JohnMarston)
 
 - Add ```ensure rgn_farmer``` in your server.cfg with the Requirements above it.
-- Add the corn item into your items database -- INSERT INTO `items` (`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('corn', 'corn', '12', '1', 'item_standard', '0')
+- Add the corn item into your items database -- INSERT INTO `items` (`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('corn', 'corn', '20', '1', 'item_standard', '0')
 - Add the corn.png to the vorp_inventory\html\img\items folder.
 - Enjoy!
