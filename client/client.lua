@@ -215,7 +215,7 @@ AddEventHandler('rgn_farmer:timer', function()
 end)
 
 function animacion()
-    TaskStartScenarioInPlace(PlayerPedId(), GetHashKey('WORLD_HUMAN_PICKAXE_WALL'), 20000, true, false, false, false)
+    TaskStartScenarioInPlace(PlayerPedId(), GetHashKey('working_loop_hoe'), 20000, true, false, false, false)
     exports['progressBars']:startUI(20000, Language.translate[Config.lang]['Farming'])
     Wait(20000)
     ClearPedTasksImmediately(PlayerPedId())
