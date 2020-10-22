@@ -24,7 +24,7 @@ end
 
 Citizen.CreateThread(function()
     local blip = N_0x554d9d53f696d002(1664425300, Config.Zones['init'].x, Config.Zones['init'].y, Config.Zones['init'].z)
-    SetBlipSprite(blip, -1633216922, 1)
+    SetBlipSprite(blip, 1664261990, 1)
         Citizen.InvokeNative(0x9CB1A1623062F402, blip, "Farming Job") 
 end)
 
