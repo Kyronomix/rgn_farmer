@@ -16,7 +16,7 @@ Config.xp = {
 
 Config.itemcount = {
     ['min'] = 1,
-    ['max'] = 3
+    ['max'] = 5
 }
 
 Config.Zones = {
